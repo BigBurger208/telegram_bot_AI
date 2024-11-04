@@ -26,7 +26,7 @@ async def Ai_progress(message: Message):
     message.text.replace("/AI", "")
     message.text.strip()
 
-    r = "" + AiDialog(str(message.text), "bratiya234@gmail.com", "Wede12345678900")
+    r = "" + AiDialog(str(message.text), "email", "pas")
     await message.reply(r)
 
 
